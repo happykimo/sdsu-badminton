@@ -12,10 +12,10 @@ function Cards() {
                 
                 <ul className='cards__items'>
                 <CardItem 
-                    src='../../images/img-9.jpg'
-                    text='Explore the hidden waterfall deep inside the Amazon jungle'
-                    label='Adventure'
-                    path='/services'
+                    src='../../images/shuttlecockwallpaper.jpg'
+                    text='Badminton Gyms in San Diego'
+                    label='Info'
+                    path='/san-diego-gyms'
                     />
                 <CardItem 
                     src='../../images/img-2.jpg'
