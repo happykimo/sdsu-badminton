@@ -36,7 +36,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                TRVL <i className='fab fa-typo3'/>
+                SDSU <i className='fab fa-instagram'/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -48,8 +48,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                        Services
+                    <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>
+                        About Us
                     </Link>
                 </li>
                 <li className='nav-item'>
@@ -57,9 +57,15 @@ function Navbar() {
                         Products
                     </Link>
                 </li>
-                <li className='nav-item'>
-                    <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                        Sign Up
+                <li className='nav-icons-mobile'>
+                    <Link to='https://www.instagram.com/sdsu.badminton/' target="_blank" rel="noopener noreferrer" className='nav-icons-instagram' onClick={closeMobileMenu}>
+                        <i className='fab fa-instagram'/>
+                    </Link>
+                    <Link to='https://discord.com/invite/tZevzjckJ7' target="_blank" rel="noopener noreferrer" className='nav-icons-discord' onClick={closeMobileMenu}>
+                        <i className='fab fa-discord'/>
+                    </Link>
+                    <Link to='mailto::sdsubad@gmail.com' target="_blank" rel="noopener noreferrer" className='nav-icons-email' onClick={closeMobileMenu}>
+                        <i className='far fa-envelope'/>
                     </Link>
                 </li>
             </ul>
