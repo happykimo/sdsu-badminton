@@ -1,6 +1,15 @@
 import React from 'react';
 import '../../App.css';
+import HeroSection from '../HeroSection';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
 export default function AboutUs() {
-    return <h1 className='about-us'>ABOUT US</h1>
+    return(
+    <>
+    <HeroSection />
+    <Cards />
+    <Footer />
+    </>
+    );
 }
