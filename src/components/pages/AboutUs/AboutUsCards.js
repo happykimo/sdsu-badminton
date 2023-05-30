@@ -1,7 +1,7 @@
 import React from 'react';
-import CardItem from './CardItem';
-import VideoCardItem from './VideoCardItem';
-import './Cards.css';
+import CardItem from '../../CardItem';
+import VideoCardItem from '../../VideoCardItem';
+import './AboutUsCards.css';
 
 function Cards() {
   return (
@@ -34,27 +34,7 @@ function Cards() {
                     path='https://groupme.com/join_group/86676048/hrbsjc32'
                     />
                 </ul>
-                <ul className='cards__items'>
-                <CardItem 
-                    src='../../images/GroupMe-Icon.jpg'
-                    text='Chat With Us On GroupMe'
-                    label='GroupMe'
-                    path='https://groupme.com/join_group/72332856/3T5SKPNv'
-                    />
-                <CardItem 
-                    src='../../images/Discord-Icon.jpg'
-                    text='Game With Us On Discord'
-                    label='Discord'
-                    path='https://discord.com/invite/tZevzjckJ7'
-                    />
-                <CardItem 
-                    src='../../images/OnlyFans-Icon.jpg'
-                    text='Subscribe to Our OnlyFans ;)'
-                    label='OnlyFans'
-                    path='https://discord.com/invite/tZevzjckJ7'
-                    />
-                </ul>
-
+                
                 {/* <ul className='cards__items'>
                 <VideoCardItem
                     src='../videos/video-2.mp4'
