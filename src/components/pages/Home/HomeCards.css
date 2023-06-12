@@ -99,6 +99,15 @@ h1 {
   line-height: 24px;
 }
 
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
